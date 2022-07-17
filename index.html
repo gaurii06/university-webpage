@@ -5,39 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Gaurika University</title>
     <link rel="stylesheet" href="style.css">
+    
     <script src="https://kit.fontawesome.com/8367106c68.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href=link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</head>
+       x</head>
     <body id="top">
     <header>
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active"><i class="fa-solid fa-g"></i> aurika University</a>
+        <a href="#callus">ABOUT US</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">COURSES</button>
+            <div class="dropdown-content">
+              <a href="#"></a>
+              <a href="#">STREAMS</a>
+              <a href="#">ASSESSMENT PATTERN</a>
+              <a href="#">FACULTY</a>
+            </div>
+            <i class="fa fa-angle-down"></i>
+        </div>
+
+        <a href="#library">PDF LIBRARY OF EXAMS</a>
+        
+        <div class="dropdown">
+            <button class="dropbtn">FACILITIES</button>
+            <div class="dropdown-content">
+              <a href="#">ACTIVITIES</a>
+              <a href="#">AMENITIES</a>
+              <a href="#">NCC AND SPORTS</a>
+              <a href="#">HOLISTIC HEALTHCARE</a>
+              <a href="#">TECHNICAL CLUB</a>
+            </div>
+            <i class="fa fa-angle-down"></i>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">GALLERY</button>
+            <div class="dropdown-content">
+              <a href="#">TECH FEST</a>
+              <a href="#">ANNUAL SPORTS</a>
+              <a href="#">UTOPIA</a>
+              <a href="#">DONATIONS</a>
+            </div>
+            <i class="fa fa-angle-down"></i>
+        </div>
+
+        <a href="#home" class="main">CONTACT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <!-- NAVIGATION BAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#"> <i class="fa-solid fa-g"></i>aurika University </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Activities</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Academic Calender</a>
-          </li>
-          
-        </ul>
-      </div>
-    </nav>
     </header>
     
     <div class="video">
@@ -50,38 +69,36 @@
     </div>
 
       <div class= "stats">
-        <h2 class="statistics">STATISTICS FROM LAST YEARS</h2>
-        <table class="table table-dark" style="width:100%; padding-left: 100px; padding-right: 150px">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Branch</th>
-              <th scope="col">Opening Rank</th>
-              <th scope="col">Closing Rank</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>CSE</td>
-              <td>2367</td>
-              <td>4500</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>IT</td>
-              <td>4567</td>
-              <td>6500</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>ECE</td>
-              <td>6700</td>
-              <td>11000</td>
-            </tr>
-          </tbody>
-        </table>
-    </div>
+        <h2 class="statistics">STATISTICS FROM LAST YEAR</h2>
+        
+<table id="customers">
+  <tr>
+    <th>Branch</th>
+    <th>Opening Rank</th>
+    <th>Closing Rank</th>
+  </tr>
+  <tr>
+    <td>CSE</td>
+    <td>2306</td>
+    <td>4545</td>
+  </tr>
+  <tr>
+    <td>IT</td>
+    <td>4897</td>
+    <td>6222</td>
+  </tr>
+  <tr>
+    <td>ECE</td>
+    <td>7409</td>
+    <td>8430</td>
+  </tr>
+  <tr>
+    <td>EEE</td>
+    <td>9456</td>
+    <td>13008</td>
+  </tr>
+  
+</table></div>
 
       <!-- WHO ARE WE-->
       <div class="whoarewe">
@@ -196,7 +213,7 @@
               <p>
                   Contact us on the e-mail below or call us for further details: 00011111
                   <br>
-                  Email: aspire@aspire.edu
+                  Email: gaurikaUniversity.edu
               </p>
           </div>
       </div>
@@ -204,6 +221,6 @@
 
     <a class="top-button" href="#top"><i class="fa fa-angle-up fa-2x"></i></a>
 
-    <script src="aspire.js"></script>
+    <script src="javascript.js"></script>
 </body>
 </html>
